@@ -1,0 +1,42 @@
+.App-container {
+  text-align: center;
+  background-image: url(/src/images/weather\ app\ image.avif);
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  color: white; /* Optional */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+input {
+  padding: 10px;
+  font-size: 16px;
+  width: 200px;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  margin-left: 10px;
+  cursor: pointer;
+  border-radius: 10px;
+  color: rgb(9, 9, 99);
+}
+
+h2 {
+  margin-top: 20px;
+}
+
+p {
+  font-size: 18px;
+}
+
+p.footer {
+  font-size: 16px;
+  font-weight: lighter;
+  text-align: center;
+  padding-top: 500px;
+}
