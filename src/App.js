@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import "./App.css";
-import axios from "axios";
-import backgroundImg from "./images/weather app image.avif";
+import axios from "axios";s
 
 export default function App() {
   const [location, setLocation] = useState("");
